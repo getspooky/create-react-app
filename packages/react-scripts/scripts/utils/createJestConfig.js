@@ -88,6 +88,8 @@ module.exports = (resolve, rootDir, isEjecting) => {
     'transform',
     'transformIgnorePatterns',
     'watchPathIgnorePatterns',
+    'mockData',
+    'mockService'
   ];
   if (overrides) {
     supportedKeys.forEach(key => {
